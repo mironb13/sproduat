@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="ShufersalMiron.Sprod.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test4(failed)">
+    <classes>
+      <class name="ShufersalMiron.Sprod.AddingCart">
+        <methods>
+          <include name="Add"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- ShufersalMiron.Sprod.AddingCart -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+  <test thread-count="5" name="Test5(failed)">
+    <classes>
+      <class name="ShufersalMiron.Sprod.PDP_Test">
+        <methods>
+          <include name="Add"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- ShufersalMiron.Sprod.PDP_Test -->
+    </classes>
+  </test> <!-- Test5(failed) -->
+</suite> <!-- Failed suite [Suite] -->
